@@ -1,0 +1,29 @@
+{
+  "name": "e2e-kyani",
+  "version": "1.0.0",
+  "description": "This is a Protractor project of Kyani",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor protractor.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srodriguezg/E2E-Kyani.git"
+  },
+  "keywords": [
+    "ui-testing",
+    "e2e",
+    "kyani",
+    "qa",
+    "protractor"
+  ],
+  "author": "Santiago Rodriguez Gutierrez <srodriguezg@psl.com.co> (srodriguezg)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/srodriguezg/E2E-Kyani/issues"
+  },
+  "homepage": "https://github.com/srodriguezg/E2E-Kyani#readme",
+  "dependencies": {
+    "protractor": "^5.4.0"
+  }
+}
