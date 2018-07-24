@@ -4,7 +4,8 @@
   "description": "This is a Protractor project of Kyani",
   "main": "index.js",
   "scripts": {
-    "test": "protractor protractor.config.js"
+    "build": "tsc",
+    "test": "npm run build && protractor dist/protractor/config.js"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,10 @@
   "homepage": "https://github.com/srodriguezg/E2E-Kyani#readme",
   "dependencies": {
     "protractor": "^5.4.0"
+  },
+  "devDependencies": {
+    "@types/jasminewd2": "^2.0.3",
+    "jasmine-spec-reporter": "^4.2.1",
+    "typescript": "^2.9.2"
   }
 }
