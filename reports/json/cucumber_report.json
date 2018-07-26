@@ -1,0 +1,100 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "To search cucumber in google",
+    "line": 1,
+    "id": "to-search-cucumber-in-google",
+    "tags": [],
+    "uri": "features\\evalCucumber.feature",
+    "elements": [
+      {
+        "id": "to-search-cucumber-in-google;cucumber-google-search",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Cucumber Google search",
+        "tags": [
+          {
+            "name": "@CucumberScenario",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on \"google\" search page",
+            "match": {
+              "location": "dist\\stepdefinitions\\homePage.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I type \"cucumber\"",
+            "match": {
+              "location": "dist\\stepdefinitions\\search.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 84000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click on search button",
+            "match": {
+              "location": "dist\\stepdefinitions\\search.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1892000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I clear the search text",
+            "match": {
+              "location": "dist\\stepdefinitions\\clearPage.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "dist\\helpers\\hooks.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:25"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
