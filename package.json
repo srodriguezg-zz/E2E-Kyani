@@ -4,6 +4,8 @@
   "description": "This is a Protractor project of Kyani",
   "main": "index.js",
   "scripts": {
+    "webdriver-update": "webdriver-manager update",
+    "webdriver-start": "webdriver-manager start",
     "build": "tsc",
     "test": "npm run build && protractor dist/protractor/config.js"
   },
